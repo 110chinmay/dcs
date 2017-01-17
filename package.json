@@ -1,0 +1,25 @@
+{
+  "name": "dcs",
+  "version": "1.0.0",
+  "description": "classified service",
+  "main": "app.js",
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "mongoose": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitdhore/dcs.git"
+  },
+  "author": "rohit dhore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohitdhore/dcs/issues"
+  },
+  "homepage": "https://github.com/rohitdhore/dcs#readme"
+}
