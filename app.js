@@ -17,6 +17,7 @@ app.get('/', function(req, res){
     res.send('Welcome to our Daily classified service');
 });
 
+//Get all users
 app.get('/api/users', function(req, res){
     User.getUsers(function(err, users){
         if(err){
@@ -26,6 +27,7 @@ app.get('/api/users', function(req, res){
     })
 });
 
+//Get user by id
 app.get('/api/users/:_id', function(req, res){
     User.getUserById(req.params._id, function(err, user){
         if(err){
@@ -35,6 +37,7 @@ app.get('/api/users/:_id', function(req, res){
     })
 });
 
+//Add new user
 app.post('/api/users/', function(req, res){
     var user = req.body;
     User.addUser(user, function(err, user){
@@ -45,6 +48,7 @@ app.post('/api/users/', function(req, res){
     })
 });
 
+//Update existing user by id
 app.put('/api/users/:_id', function(req, res){
     var id = req.params._id;
     var user = req.body;
@@ -56,6 +60,7 @@ app.put('/api/users/:_id', function(req, res){
     })
 });
 
+//Delete existing user
 app.delete('/api/users/:_id', function(req, res){
     var id = req.params._id;
     User.deleteUser(id, function(err, user){
