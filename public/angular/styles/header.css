@@ -1,0 +1,82 @@
+header {
+  border-bottom: 1px solid #000;
+}
+
+.logo img {
+    float: left;
+    height: 50px;
+    padding: 5px;
+}
+
+/* Custom page header */
+.header h3  {
+  /* Make the masthead heading the same height as the navigation */
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+
+.header-container {
+    width: 900px; margin: 0 auto; background-color: white
+}
+
+.header-container .post-ad-btn {
+    margin-top: 7px;
+}
+
+.main-nav {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #dedede;
+    color: black
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
