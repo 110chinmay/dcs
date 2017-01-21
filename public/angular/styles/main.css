@@ -1,0 +1,621 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  font-family: aauxnext-regular,Arial;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header h3  {
+  /* Make the masthead heading the same height as the navigation */
+
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+
+.header-content {
+  margin-top: 13px;
+}
+
+/* Custom page footer */
+.footer {
+  color: #777;
+  position: fixed;
+  background-color: #ffffff;
+  bottom: 0px;
+  z-index: 99999;
+  width: 100%;
+  height: 30px;
+  border-top: none;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+
+}
+
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+ {
+  margin: 40px 0;
+
+
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Small devices (tablets, 768px and up) */
+.container-small {
+    position: relative;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.label-holder {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.feature-tracker-menu {
+  padding-top: 14px !important;
+}
+
+/*UI select custom css*/
+.ui-select-container input {
+  width: 100% !important;
+} 
+/*Filters panel custom css default*/
+.filterContainer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ccc;
+}
+
+.mobile .filterContainer {
+  background: transparent !important;
+  color: #ffffff;
+}
+
+.filter-reset {
+  margin-top: 22px
+}
+
+.reset-btn {
+  float: left;
+  margin-right: 10px;
+}
+
+.export-btn {
+  float: left;
+}
+
+.filter {
+  margin-top: 5px;
+}
+
+.filter-input{
+  width: 92% !important;
+}
+
+.ui-select-container {
+  width: 100% !important;
+} 
+.global-search {
+  margin-top: 5px;
+}
+.search input {
+  border-bottom-right-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  width: 300px;
+  border: none;
+}
+
+.update-info-text {
+  padding-right: 5px;
+  font-style: italic;
+  font-family: monospace;
+  font-size: 13px;
+  padding-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.ui-approve-btn {
+  padding: 1px 12px !important;
+  margin: 5px !important;
+}
+
+.log-out-icon {
+  margin-top: 5px;
+}
+
+.log-in-icon {
+  margin-top: 5px;
+}
+
+.update-btn {
+  float: right;
+}
+
+.header-user-holder label {
+  padding-right: 10px;
+}
+
+.modal-content {
+  margin-top: 13%;
+}
+.modal-content textarea{
+  width: 100%;
+}
+
+.btn:focus {
+  outline: none;
+}
+.filter-holder{
+  width: 100%;
+  padding: 0px 20px 0px 20px !important;
+}
+
+.filter-sm-header{
+  padding: 5px 20px 5px 20px;
+  float: right;
+  color: #ffffff;
+}
+
+.search-info-icon{
+  width: 20px;
+  margin-left: 5px;
+  padding-top: 3px;
+  padding-right: 0px;
+  padding-left: 5px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+  .update-info-text {
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+  }
+  .filter-input{
+    width: 89% !important;
+  }
+  .ui-select-container {
+    width: 200px !important;
+  }
+  .update-btn {
+    float: left;
+  }
+  .update-btn-holder {
+    width: 100px;
+  }
+  .filter-btn-holder{
+    width: 70px;
+  }
+  .header-logo {
+    width: 120px;
+  }
+  .header-app-name {
+    width: 150px;
+  }
+
+  .filter-holder{
+    width: 200px;
+    margin-right: 10px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .filterContainer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ccc;
+  }
+  #filter-small {
+    display: none;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+  .update-info-text {
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+  }
+  .filter-input{
+    width: 89% !important;
+  }
+  .ui-select-container {
+    width: 200px !important;
+  }
+  .update-btn {
+    float: left;
+  }
+  .update-btn-holder {
+    width: 100px;
+  }
+  .filter-btn-holder {
+    width: 70px;
+  }
+  .header-logo {
+    width: 120px;
+  }
+  .header-app-name {
+    width: 200px;
+  }
+  .filter-holder{
+    width: 200px;
+    margin-right: 10px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .filterContainer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ccc;
+  }
+  #filter-small {
+    display: none;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+  .update-info-text {
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+  }
+  .filter-input{
+    width: 89% !important;
+  }
+  .ui-select-container {
+    width: 200px !important;
+  }
+  .update-btn {
+    float: left;
+  }
+  .update-btn-holder {
+    width: 100px;
+  }
+  .filter-btn{
+    width: 70px;
+  }
+  .header-logo {
+    width: 120px;
+  }
+  .header-app-name {
+    width: 200px;
+  }
+  .filter-holder{
+    width: 200px;
+    margin-right: 10px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .filterContainer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ccc;
+  }
+  #filter-small {
+    display: none;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.view-container {
+  margin-top: 70px;
+}
+.pad-left-right-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/*UI grid custom css*/
+.grid {
+  height: 630px;
+}
+
+.ui-grid-viewport .ui-grid-cell-contents {
+  word-wrap: break-word;
+  white-space: normal !important;
+}
+
+.ui-grid-row, .ui-grid-cell {
+  height: auto !important;
+}
+
+.ui-grid-row div[role=row] {
+  display: flex ;
+  align-content: stretch;
+}
+
+.label-text {
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 3px;
+  color: #ffffff;
+}
+/* Labels to be displayed with same bg color as in github */
+.label-Q-V{
+  color: white;
+  background-color: #009800;
+}
+.label-N-Q-V {
+  color: white;
+  background-color: #fbca04;
+}
+.label-V-T-M {
+  color: white;
+  background-color: #009800;
+}
+.label-P-M-A {
+  color: white;
+  background-color: #009800;
+}
+.label-N-P-A {
+  color: white;
+  background-color: #fbca04;
+}
+
+.label-D-N-M {
+  color: white;
+  background-color: #FF4933;
+}
+
+
+/*Display viewport full height so grid can take maximum space*/
+.ui-grid-viewport  {
+  height: 600px !important;
+  overflow: auto !important;
+
+}
+.ui-grid-contents-wrapper {
+  height: 600px !important;
+
+}
+
+/*UI grid custom css*/
+.ui-grid-column-menu-button {
+  display: none;
+}
+
+.ui-grid-canvas {
+  width:100%;
+}
+
+
+/*nav bar to match with appdirect.com*/
+nav {
+  display: block;
+}
+#newnav .main-nav{
+    display: block;
+}
+
+#newnav .main-nav{
+    font-family: aauxnext-regular,Arial,sans-serif;
+}
+
+#newnav .nav {
+    background: #1f2326;
+    height: 70px;
+    transition: all 0.15s ease-in-out;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 8000;
+}
+
+#newnav .main-nav ul{
+    list-style: none;
+    margin-bottom: 0px !important;
+}
+
+#newnav .main-nav ul li{
+    height: 3.68421em;
+    position: relative;
+    /*margin-right: 2.1875em;*/
+    float: left;
+}
+
+#newnav .main-nav .logo a, label{
+    padding: 1.25em 0;
+    font-size: 16px;
+}
+#newnav .main-nav li a, #newnav .utility-nav li a {
+    
+}
+#newnav .nav a, label {
+    display: block;
+    font-size: .84211em;
+    color: #adaeaf;
+    font-size: 16px;
+    padding-top: 10px;
+    text-decoration: none;
+     -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+#newnav .nav a:hover {
+    color: #fff;
+}
+
+#newnav .nav label:hover {
+    color: #fff;
+}
+
+#newnav .main-nav svg{
+    -webkit-transition: fill 0.2s ease-in-out;
+    -moz-transition: fill 0.2s ease-in-out;
+    transition: fill 0.2s ease-in-out;
+    width: 6.05263em;
+    height: 1.68421em;
+    fill: #adaeaf;
+    cursor: pointer;
+}
+
+/*Svg styling mostly fo svg used in header*/
+svg:not(:root) {
+    overflow: hidden;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.svgstore {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+/*Input styling throughout the application*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+input {
+  /*border-bottom-color: #b3b3b3 !important;*/
+  border-bottom-left-radius: 3px !important;
+  border-bottom-right-radius: 3px !important;
+  /*border-bottom-style: solid !important;
+  border-bottom-width: 1px !important;
+  border-left-color: #b3b3b3 !important;
+  border-left-style: solid !important;
+  border-left-width: 1px !important;
+  border-right-color: #b3b3b3 !important;
+  border-right-style: solid !important;
+  border-right-width: 1px !important;
+  border-top-color: #b3b3b3 !important;*/
+  border-top-left-radius: 3px !important;
+  border-top-right-radius: 3px !important;
+  /*border-top-style: solid !important;
+  border-top-width: 1px !important;*/
+}
+
+#cover {
+  position:fixed; 
+  top:0; 
+  left:0; 
+  background:rgba(0,0,0,0.6); 
+  z-index:5; 
+  width:100%; 
+  height:100%;
+}
+
+#filter-small {
+  position:fixed; 
+  top:0; 
+  left:0; 
+  background:rgba(0,0,0,0.8); 
+  z-index:5; 
+  margin-top: 180px;
+  width:100%; 
+  height:100%;
+}
+ 
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+ 
+.spinner:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-top-color: #ccc;
+  border-bottom-color: #ccc;
+  animation: spinner .8s ease infinite;
+}
+
+.login-container {
+  margin: 1%;
+}

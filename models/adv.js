@@ -6,15 +6,21 @@ var advSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    location: {
+    category: {
+        type: Object,
+        required: true
+    },
+    price: {
+        type: String,
+        required: true
+    },
+    description: {
         type: String,
         required: true
     },
     images: {
-        type: Array
-    },
-    price: {
-        type: String
+        type: Array,
+        required: true
     },
     year: {
         type: String
@@ -25,28 +31,36 @@ var advSchema = mongoose.Schema({
     model: {
         type: String
     },
-    year: {
-        type: String
-    },
     fuel: {
         type: String
     },
     km_driven: {
         type: String
     },
-    description: {
+    status: {
         type: String
     },
-    status: {
+    name: {
+        type: Object
+    },
+    phone: {
         type: String,
         required: true
     },
-    createdBy: {
-        type: Object
-    }
+    city: {
+        type: String,
+        required: true
+    },
+    location: {
+        type: Object,
+        required: true
+    },
     create_date: {
         type: Date,
         default: Date.now
+    },
+    views: {
+        type: String
     }
 })
 
@@ -72,17 +86,20 @@ module.exports.updateAdv = function(id, Adv, options, callback){
     var query = {_id:id};
     var update = {
         title: Adv.title,
-        location: Adv.location,
-        images: Adv.images,
+        category: Adv.category,
         price: Adv.price,
+        description: Adv.description,
+        images: Adv.images,
         year: Adv.year,
         brand: Adv.brand,
         model: Adv.model,
-        year: Adv.year,
         fuel: Adv.fuel,
         km_driven: Adv.km_driven,
-        description: Adv.description,
-        status: Adv.status
+        status: Adv.status,
+        name: Adv.name,
+        phone: Adv.phone,
+        city: Adv.city,
+        location: Adv.location
     }
     Adv.findOneAndUpdate(query, update, options, callback);
 }
