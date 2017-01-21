@@ -1,0 +1,3250 @@
+[
+  {"id" : 25102,
+     "pr" :
+        {
+           "prNumber" : 25102,
+           "prTitle" : "Pay unpaid invoice from the Invoice Detail for a BAAS marketplace / C…",
+           "prUrl" : "https://github.com/AppDirect/AppDirect/pull/25102",
+           "prLabels" :
+              [
+                 "QA Validated",
+                 "Team - DS",
+                 "UI Approved",
+                 "Verified To Merge"
+              ],
+           "prMergedAt" : "2016-11-29T14:02:13Z",
+           "releaseBranchMergedTo" : 270,
+           "screencastLink" : null,
+           "screenShotLinks" :
+              [
+                 "https://cloud.githubusercontent.com/assets/9853777",
+                 "https://cloud.githubusercontent.com/assets/9853777",
+                 "https://cloud.githubusercontent.com/assets/4741410",
+                 "https://cloud.githubusercontent.com/assets/4741410",
+                 "https://cloud.githubusercontent.com/assets/11875843",
+                 "https://cloud.githubusercontent.com/assets/11875843",
+                 "https://cloud.githubusercontent.com/assets/11875843",
+                 "https://cloud.githubusercontent.com/assets/9853777",
+                 "https://cloud.githubusercontent.com/assets/9853777",
+                 "https://cloud.githubusercontent.com/assets/11875843"
+              ],
+           "testRailLinks" :
+              [
+                 "https://appdirect.testrail.com/index.php?/cases/view/19877649",
+                 "https://appdirect.testrail.com/index.php?/cases/view/19877650",
+                 "https://appdirect.testrail.com/index.php?/cases/view/19879838"
+              ],
+           "addToReleaseNotes" : false
+        },
+     "jiraTicket" :
+        {
+           "jiraId" : "DS-11050",
+           "jiraUrl" : "https://appdirect.jira.com/browse/DS-11050",
+           "jiraSummary" : "Order Product: Pay unpaid invoice from the Invoice Detail for a BAAS marketplace / Channel Admin User",
+           "issueType" : "Story",
+           "isBlocker" : false
+        },
+     "team" : "DS",
+     "developer" : "marc-andre-beaudry",
+     "qa" : null,
+     "pm" : null,
+     "notes" : null
+  },
+  {
+    "id": "DS-9879",
+    "pr": {
+      "prNumber": 25701,
+      "prTitle": "Invoice payment task",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25701",
+      "prLabels": [
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": 602,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-9879",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-9879",
+      "jiraSummary": "Add retry mechanism for importing invoices & payments generated during checkout",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "fivos",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PI-7095",
+    "pr": {
+      "prNumber": 25698,
+      "prTitle": "Sync Settings page to use ChannelSettingsApi",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25698",
+      "prLabels": [
+        "Frontend",
+        "Needs PM Approval",
+        "Needs QA Validation",
+        "Team - PI"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/20648834"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PI-7095",
+      "jiraUrl": "https://appdirect.jira.com/browse/PI-7095",
+      "jiraSummary": "As a dev, I want Sync Settings page to use ChannelSettingsApi",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PI",
+    "developer": "fremfi",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PI-4353",
+    "pr": {
+      "prNumber": 25697,
+      "prTitle": "PI-4353: Removes onetime setup for domains + data cleanup for 273",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25697",
+      "prLabels": [
+        "Domain Registration",
+        "Needs Merge Validation",
+        "Needs PM Approval",
+        "Needs QA Validation",
+        "Team - PI"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/19395372"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PI-4353",
+      "jiraUrl": "https://appdirect.jira.com/browse/PI-4353",
+      "jiraSummary": "Remove one time set up fee from Domain Product Type",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PI",
+    "developer": "benardmathieu",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "APL-75",
+    "pr": {
+      "prNumber": 25696,
+      "prTitle": "APL-75 Add MPP Activation Setup to the Company Detail Panel.",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25696",
+      "prLabels": [
+        "DO NOT MERGE"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/18311684"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "APL-75",
+      "jiraUrl": "https://appdirect.jira.com/browse/APL-75",
+      "jiraSummary": "Create UI for project Harmony CSR to guide setup of company",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "APL",
+    "developer": "cdhorne",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PI-7107",
+    "pr": {
+      "prNumber": 25693,
+      "prTitle": "PI-7107 Adding Microsoft Flow and PowerApps to the code",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25693",
+      "prLabels": [
+        "Team - PI"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PI-7107",
+      "jiraUrl": "https://appdirect.jira.com/browse/PI-7107",
+      "jiraSummary": "Adding Microsoft Flow and PowerApps CSP SKUs to the codebase",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PI",
+    "developer": "JonnyLinton",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PI-7051",
+    "pr": {
+      "prNumber": 25685,
+      "prTitle": "JIRA: PI-7051 Check if company exists",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25685",
+      "prLabels": [],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PI-7051",
+      "jiraUrl": "https://appdirect.jira.com/browse/PI-7051",
+      "jiraSummary": "As a user, I should not see the product settings page if I have a google account.",
+      "issueType": "Story",
+      "isBlocker": true
+    },
+    "team": "PI",
+    "developer": "parthaam",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-8629",
+    "pr": {
+      "prNumber": 25684,
+      "prTitle": "PricingUtils Refactoring",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25684",
+      "prLabels": [
+        "Needs Automation Run",
+        "Needs QA Validation",
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-8629",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-8629",
+      "jiraSummary": "PricingUtils Refactoring",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "minqizhou",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PI-6690",
+    "pr": {
+      "prNumber": 25681,
+      "prTitle": "PI-6690: Invitation extension for company sync",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25681",
+      "prLabels": [],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PI-6690",
+      "jiraUrl": "https://appdirect.jira.com/browse/PI-6690",
+      "jiraSummary": "As a dev, I want an extension for inviting synced companies (default non-idp)",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PI",
+    "developer": "amertkara",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TPMFE-66",
+    "pr": {
+      "prNumber": 25675,
+      "prTitle": "TPMFE-66 ROGERS: update save quote tooltip",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25675",
+      "prLabels": [
+        "Frontend",
+        "Needs QA Validation",
+        "Team - TPMFE"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/14984659"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TPMFE-66",
+      "jiraUrl": "https://appdirect.jira.com/browse/TPMFE-66",
+      "jiraSummary": "HLS: Rogers - Change text of \"save quote\" on Billing Details page",
+      "issueType": "Epic",
+      "isBlocker": false
+    },
+    "team": "TPMFE",
+    "developer": "sijincao-ad",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "WAC-254",
+    "pr": {
+      "prNumber": 25658,
+      "prTitle": "WAC-254 Update invoice footer for Wacom ROW.",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25658",
+      "prLabels": [
+        "Frontend",
+        "Needs QA Validation",
+        "Team - TPMFE"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "WAC-254",
+      "jiraUrl": "https://appdirect.jira.com/browse/WAC-254",
+      "jiraSummary": "RoW store: legal information for invoices",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "WAC",
+    "developer": "artisanalcode",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "AM-4490",
+    "pr": {
+      "prNumber": 25649,
+      "prTitle": "AM-4490 make Default Everyone Group setting visible",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25649",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Needs PM Approval",
+        "QA Validated",
+        "Team - IAM"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": "http://www.screencast.com/t/ykSLaPyGd",
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/4510361"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "AM-4490",
+      "jiraUrl": "https://appdirect.jira.com/browse/AM-4490",
+      "jiraSummary": "Create FE for Superuser setting to enable default \"Everyone\" group",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "AM",
+    "developer": "nguyentannguyen",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PSMI-3",
+    "pr": {
+      "prNumber": 25646,
+      "prTitle": "PSMI-3 add registration api",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25646",
+      "prLabels": [],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PSMI-3",
+      "jiraUrl": "https://appdirect.jira.com/browse/PSMI-3",
+      "jiraSummary": "Notification publication: Product purchased",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PSMI",
+    "developer": "binig",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PSMI-21",
+    "pr": {
+      "prNumber": 25643,
+      "prTitle": "PSMI-21 move publish notification system to AD",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25643",
+      "prLabels": [],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PSMI-21",
+      "jiraUrl": "https://appdirect.jira.com/browse/PSMI-21",
+      "jiraSummary": "Webhook Notifier: Publish notification received from the Queue",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PSMI",
+    "developer": "binig",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-11230",
+    "pr": {
+      "prNumber": 25637,
+      "prTitle": "DS-11230: Add three fields to payment details reports",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25637",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-11230",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-11230",
+      "jiraSummary": "Adding Fields to Payment Details Report (Unit Type, Price per Unit, Quantity)",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "archerz",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "MP-12619",
+    "pr": {
+      "prNumber": 25633,
+      "prTitle": "MP-12619 Custom URL frontend",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25633",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Frontend",
+        "Team - MP"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "MP-12619",
+      "jiraUrl": "https://appdirect.jira.com/browse/MP-12619",
+      "jiraSummary": "[UI] As a Channel Admin, I can customize my marketplace URL",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "MP",
+    "developer": "davidzzhang",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-10632",
+    "pr": {
+      "prNumber": 25621,
+      "prTitle": "DS-10632",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25621",
+      "prLabels": [
+        "DO NOT MERGE"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-10632",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-10632",
+      "jiraSummary": "As a channel user, i want to view a customer invoice in the New Design",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "JiriChara",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PI-6628",
+    "pr": {
+      "prNumber": 25618,
+      "prTitle": "PI-6628 add CompanySyncJob and supporting classes & tests",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25618",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Team - PI"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PI-6628",
+      "jiraUrl": "https://appdirect.jira.com/browse/PI-6628",
+      "jiraSummary": "As a dev, I want a scheduled job for pulling companies (custom integration)",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PI",
+    "developer": "joeyfad",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TPMMB-991",
+    "pr": {
+      "prNumber": 25614,
+      "prTitle": "TPMMB-991 Swisscom v2 Migration",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25614",
+      "prLabels": [
+        "Frontend",
+        "Needs Merge Validation",
+        "Needs QA Validation",
+        "Team - TPMFE",
+        "Team - TPMMB",
+        "UI Approved"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/13985748"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TPMMB-991",
+      "jiraUrl": "https://appdirect.jira.com/browse/TPMMB-991",
+      "jiraSummary": "Migrate Swisscom marketplace to v2 theme",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "TPMMB",
+    "developer": "gnomecircle",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "FICO-281",
+    "pr": {
+      "prNumber": 25613,
+      "prTitle": "FICO-281 re-enable account menu, hide links as required",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25613",
+      "prLabels": [
+        "Needs QA Validation",
+        "Team - TPMFE"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "FICO-281",
+      "jiraUrl": "https://appdirect.jira.com/browse/FICO-281",
+      "jiraSummary": "SOW 4 : OOTB UI Re-enablement",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "FICO",
+    "developer": "sijincao-ad",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PI-6283",
+    "pr": {
+      "prNumber": 25604,
+      "prTitle": "PI-6283-Do not show error on UI if company entitlement is not found during graph sync",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25604",
+      "prLabels": [
+        "Needs QA Validation",
+        "Team - PI"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PI-6283",
+      "jiraUrl": "https://appdirect.jira.com/browse/PI-6283",
+      "jiraSummary": "Do not show error on UI if company entitlement is not found during graph sync",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PI",
+    "developer": "yogeshwadile",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "APL-43",
+    "pr": {
+      "prNumber": 25596,
+      "prTitle": "APL-43: Add BundleID and AppStoreID fields to applications",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25596",
+      "prLabels": [
+        "Needs Merge Validation",
+        "Needs UI Approval",
+        "QA Validated",
+        "Team - AppDevices"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": "http://www.screencast.com/t/cSaDvsvh",
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/18311684"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "APL-43",
+      "jiraUrl": "https://appdirect.jira.com/browse/APL-43",
+      "jiraSummary": "As a developer I should be able to configure an apple bundle ID and App Store ID on my application",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "APL",
+    "developer": "cdhorne",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "MP-11253",
+    "pr": {
+      "prNumber": 25588,
+      "prTitle": "Mp 11253",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25588",
+      "prLabels": [
+        "Team - MP"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "MP-11253",
+      "jiraUrl": "https://appdirect.jira.com/browse/MP-11253",
+      "jiraSummary": "Implement new security to use permission",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "MP",
+    "developer": "alexperreault-aube",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PSMI-3",
+    "pr": {
+      "prNumber": 25583,
+      "prTitle": "[PSMI-3] Notification publication: Product purchased",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25583",
+      "prLabels": [],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PSMI-3",
+      "jiraUrl": "https://appdirect.jira.com/browse/PSMI-3",
+      "jiraSummary": "Notification publication: Product purchased",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PSMI",
+    "developer": "binig",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TPMA-1104",
+    "pr": {
+      "prNumber": 25578,
+      "prTitle": "[TPMA-1104] Refactor usages of company.getTelstraDealer()",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25578",
+      "prLabels": [
+        "Needs QA Validation",
+        "Team - Performance"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TPMA-1104",
+      "jiraUrl": "https://appdirect.jira.com/browse/TPMA-1104",
+      "jiraSummary": "Remove TelstraDealer from Company",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "TPMA",
+    "developer": "cliangdev",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "AM-4289",
+    "pr": {
+      "prNumber": 25572,
+      "prTitle": "AM-4289 prevent the default \"Everyone\" group from being deleted and prevent users from being manually added and removed to/from the default \"Everyone\" group",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25572",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Needs QA Validation",
+        "QA Validated",
+        "Team - IAM"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/1691052",
+        "https://cloud.githubusercontent.com/assets/19652996",
+        "https://cloud.githubusercontent.com/assets/19652996"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "AM-4289",
+      "jiraUrl": "https://appdirect.jira.com/browse/AM-4289",
+      "jiraSummary": "As a company admin I want to prevent the default \"Everyone\" group from being deleted and I want to prevent users from being manually added and removed to/from the default \"Everyone\" group",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "AM",
+    "developer": "nguyentannguyen",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "MP-12531",
+    "pr": {
+      "prNumber": 25570,
+      "prTitle": "[MP-12531]: Pre-calculate Starting at price per Product per Marketplace",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25570",
+      "prLabels": [],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "MP-12531",
+      "jiraUrl": "https://appdirect.jira.com/browse/MP-12531",
+      "jiraSummary": "Pre-calculate \"Starting at\" price per Product per Marketplace",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "MP",
+    "developer": "carlamorawicz",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "AM-4290",
+    "pr": {
+      "prNumber": 25562,
+      "prTitle": "[AM-4290] Add Users to Everyone group upon creation",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25562",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Team - IAM"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "AM-4290",
+      "jiraUrl": "https://appdirect.jira.com/browse/AM-4290",
+      "jiraSummary": "As a company admin I want all new company users to be automatically added to that company's default \"Everyone\" group",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "AM",
+    "developer": "kasimdoctor",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-10543",
+    "pr": {
+      "prNumber": 25560,
+      "prTitle": "DS-10543: Network publishing back-end changes",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25560",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-10543",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-10543",
+      "jiraSummary": "Network Publishing",
+      "issueType": "Epic",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "GrahamJohnson",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "APPD-283",
+    "pr": {
+      "prNumber": 25557,
+      "prTitle": "APPD-283 implemented rejection message UI",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25557",
+      "prLabels": [
+        "Frontend",
+        "I18N",
+        "Needs Merge Validation",
+        "Needs PM Approval",
+        "Needs QA Validation",
+        "Needs UI Approval",
+        "Team - AppDevices"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": "http://www.screencast.com/t/OkzIKBHx",
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/175917",
+        "https://cloud.githubusercontent.com/assets/4741410",
+        "https://cloud.githubusercontent.com/assets/4741410"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "APPD-283",
+      "jiraUrl": "https://appdirect.jira.com/browse/APPD-283",
+      "jiraSummary": "OEM Admin message when PV rejected [UI]",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "APPD",
+    "developer": "tscho",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PERF-38",
+    "pr": {
+      "prNumber": 25522,
+      "prTitle": "Large number of entities loaded",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25522",
+      "prLabels": [
+        "Team - Performance"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PERF-38",
+      "jiraUrl": "https://appdirect.jira.com/browse/PERF-38",
+      "jiraSummary": "Large number of entities loaded by DiscountsTxnHelperImpl.clearExcludedAppChannelDiscountFields",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PERF",
+    "developer": "cliangdev",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PI-6573",
+    "pr": {
+      "prNumber": 25507,
+      "prTitle": "Pi 6573 allow company admins to jump into domain app",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25507",
+      "prLabels": [],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/98903"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PI-6573",
+      "jiraUrl": "https://appdirect.jira.com/browse/PI-6573",
+      "jiraSummary": "Allow company admins to jump into and manage the domain app",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PI",
+    "developer": "francisl",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "MP-11985",
+    "pr": {
+      "prNumber": 25470,
+      "prTitle": "MP-11985 Permission-based notifications.",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25470",
+      "prLabels": [
+        "Needs QA Validation",
+        "Needs UI Approval",
+        "Team - MP"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/13333656"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "MP-11985",
+      "jiraUrl": "https://appdirect.jira.com/browse/MP-11985",
+      "jiraSummary": "Notification",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "MP",
+    "developer": "esimon1",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-10704",
+    "pr": {
+      "prNumber": 25460,
+      "prTitle": "DS-10704 Add reactivation in billing API",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25460",
+      "prLabels": [
+        "Needs Merge Validation",
+        "QA Validated",
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-10704",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-10704",
+      "jiraSummary": "As an API consumer I would like to suspend and reactivate subscriptions.",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "sservoles",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PERF-12",
+    "pr": {
+      "prNumber": 25452,
+      "prTitle": "PERF-12: Stop loading all Application related model objects for UserApplicationBean",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25452",
+      "prLabels": [],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PERF-12",
+      "jiraUrl": "https://appdirect.jira.com/browse/PERF-12",
+      "jiraSummary": "IBM Performance: /account/v1/companies/*/users/*/products ave. 1900 ms",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PERF",
+    "developer": "marcantoine-bibeau",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TPMPR-2247",
+    "pr": {
+      "prNumber": 25437,
+      "prTitle": "TAM | SAASE-65 | O2A | Customer who had an invoice that was marked as \u001cinvalid account\u001d, gets suspended after 14 days and then updates Billing Details with new TBill has services still in suspened state.",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25437",
+      "prLabels": [
+        "Team - TPMPR"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TPMPR-2247",
+      "jiraUrl": "https://appdirect.jira.com/browse/TPMPR-2247",
+      "jiraSummary": "TAM | SAASE-65 | O2A | Customer who had an invoice that was marked as \u001cinvalid account\u001d, gets suspended after 14 days and then updates Billing Details with new TBill has services still in suspened state. ",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "TPMPR",
+    "developer": "praveen-jft",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TPMLV-1217",
+    "pr": {
+      "prNumber": 25425,
+      "prTitle": "TPMLV-1217 - Credit Card Required Email Notification",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25425",
+      "prLabels": [
+        "Needs QA Validation",
+        "Team - TPMMB"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/1862932"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TPMLV-1217",
+      "jiraUrl": "https://appdirect.jira.com/browse/TPMLV-1217",
+      "jiraSummary": "Credit Card Required Email Notification",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "TPMLV",
+    "developer": "manishbharti",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TPMPR-2243",
+    "pr": {
+      "prNumber": 25422,
+      "prTitle": "TPMPR-2243 :- Making DNS_REQUEST_ID and TRANSFER_REQUEST_ID Editable in Domain Panel.",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25422",
+      "prLabels": [
+        "Needs QA Validation",
+        "Team - TPMPR"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/7187954"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TPMPR-2243",
+      "jiraUrl": "https://appdirect.jira.com/browse/TPMPR-2243",
+      "jiraSummary": "Domain Tool improvement to update the Transfer Request ID and Dns Request ID.",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "TPMPR",
+    "developer": "tinku-jft",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-9994",
+    "pr": {
+      "prNumber": 25421,
+      "prTitle": "Ds-9994 Order API Documentation",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25421",
+      "prLabels": [],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-9994",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-9994",
+      "jiraSummary": "DS-API-DOC-Order Auto-generate Order API documentation",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "veead",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-11578",
+    "pr": {
+      "prNumber": 25415,
+      "prTitle": "DS-11578 documentation for UserProductContext Api",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25415",
+      "prLabels": [],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-11578",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-11578",
+      "jiraSummary": "DS-API-DOC-User-Product-Context Auto-generate User Product Context API documentation",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "mdgale",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "APPD-53",
+    "pr": {
+      "prNumber": 25413,
+      "prTitle": "APPD-53 Channel Admin Pending Product Version Alert",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25413",
+      "prLabels": [
+        "Frontend",
+        "I18N",
+        "PM Approved",
+        "QA Validated",
+        "Team - AppDevices",
+        "UI Approved"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": "http://www.screencast.com/t/Be7Ul1IKS2j",
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/175917"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "APPD-53",
+      "jiraUrl": "https://appdirect.jira.com/browse/APPD-53",
+      "jiraSummary": "Channel Admin sees warning themed alert about pending product versions on the product versions list and product dashboard pages",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "APPD",
+    "developer": "tscho",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "MP-11427",
+    "pr": {
+      "prNumber": 25408,
+      "prTitle": "[MP-11427] Integrate the monolith with the url provisioner",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25408",
+      "prLabels": [
+        "Team - MP"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/3113"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "MP-11427",
+      "jiraUrl": "https://appdirect.jira.com/browse/MP-11427",
+      "jiraSummary": "Integration of monolith, micro-service and new infrastructure",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "MP",
+    "developer": "rgiard",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-9993",
+    "pr": {
+      "prNumber": 25406,
+      "prTitle": "DS-9993 Generate Payment Api documentation",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25406",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-9993",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-9993",
+      "jiraSummary": "DS-API-DOC-Payment Auto-generate Payment API docs",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "scoquelin",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PA-1044",
+    "pr": {
+      "prNumber": 25380,
+      "prTitle": "PA-1044: Migrate audit functionality to AuditService microservice",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25380",
+      "prLabels": [
+        "Team - Platform"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PA-1044",
+      "jiraUrl": "https://appdirect.jira.com/browse/PA-1044",
+      "jiraSummary": "AuditService - Epic",
+      "issueType": "Epic",
+      "isBlocker": false
+    },
+    "team": "PA",
+    "developer": "aredko-appdirect",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PERF-20",
+    "pr": {
+      "prNumber": 25341,
+      "prTitle": "Perf 20.remove.telstra dealer",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25341",
+      "prLabels": [
+        "DO NOT MERGE"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PERF-20",
+      "jiraUrl": "https://appdirect.jira.com/browse/PERF-20",
+      "jiraSummary": "Remove TelstraDealer from Company",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PERF",
+    "developer": "cliangdev",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-4517",
+    "pr": {
+      "prNumber": 25338,
+      "prTitle": "DS-4517: add to marketplace UIF conversion",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25338",
+      "prLabels": [
+        "Frontend",
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/11931668",
+        "https://cloud.githubusercontent.com/assets/11931668"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-4517",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-4517",
+      "jiraSummary": "UIF CMS - Add To Marketplace",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "nkamboh",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "MP-12282",
+    "pr": {
+      "prNumber": 25259,
+      "prTitle": "MP-12282 Selfserve cancel subscription FE changes",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25259",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Team - MP"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/8549040"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "MP-12282",
+      "jiraUrl": "https://appdirect.jira.com/browse/MP-12282",
+      "jiraSummary": "As a marketplace manager, I can cancel my edition of my AppDirect marketplace via the My Subscription page",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "MP",
+    "developer": "davidzzhang",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "MP-12252",
+    "pr": {
+      "prNumber": 25244,
+      "prTitle": "Collect purchase order custom attribute information during purchase order flow",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25244",
+      "prLabels": [
+        "Team - MP"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/1910057"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "MP-12252",
+      "jiraUrl": "https://appdirect.jira.com/browse/MP-12252",
+      "jiraSummary": "As a channel admin, I want purchase order custom attributes to be included in the purchase order flow so that I may collect additional order information at purchase time",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "MP",
+    "developer": "hurracrane",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PERF-25",
+    "pr": {
+      "prNumber": 25243,
+      "prTitle": "[DO NOT REVIEW] Perf 25: POC using mysql FULLTEXT index",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25243",
+      "prLabels": [
+        "DO NOT MERGE"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PERF-25",
+      "jiraUrl": "https://appdirect.jira.com/browse/PERF-25",
+      "jiraSummary": "Fix 3rd slowness SQL query",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PERF",
+    "developer": "marcantoine-bibeau",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PERF-26",
+    "pr": {
+      "prNumber": 25210,
+      "prTitle": "Lazy fetch type ds",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25210",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Team - Performance"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PERF-26",
+      "jiraUrl": "https://appdirect.jira.com/browse/PERF-26",
+      "jiraSummary": "Use FetchType.LAZY for all @OneToOne and @ManyToOne associations in DS Domain",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PERF",
+    "developer": "fivos",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PSDS-2",
+    "pr": {
+      "prNumber": 25208,
+      "prTitle": "PSDS-2: Additional parameters for SCSA Redirect",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25208",
+      "prLabels": [
+        "Needs Merge Validation",
+        "Needs PM Approval",
+        "Needs QA Validation",
+        "PSDS - Team",
+        "Team - TPMEC"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PSDS-2",
+      "jiraUrl": "https://appdirect.jira.com/browse/PSDS-2",
+      "jiraSummary": "Additional parameters for SCSA Redirect",
+      "issueType": "Epic",
+      "isBlocker": false
+    },
+    "team": "PSDS",
+    "developer": "agustin-krapovickas",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "MP-11255",
+    "pr": {
+      "prNumber": 25193,
+      "prTitle": "MP-11255, MP-11256, MP-11258",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25193",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Needs QA Validation",
+        "Team - MP"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "MP-11255",
+      "jiraUrl": "https://appdirect.jira.com/browse/MP-11255",
+      "jiraSummary": "Create ACL for quote without using them",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "MP",
+    "developer": "alexperreault-aube",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PI-6238",
+    "pr": {
+      "prNumber": 25144,
+      "prTitle": "Jira: PI-6238 Don't allow resets when storing the password",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25144",
+      "prLabels": [
+        "Needs QA Validation",
+        "Team - PI"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PI-6238",
+      "jiraUrl": "https://appdirect.jira.com/browse/PI-6238",
+      "jiraSummary": "Phase 2: Remove Password reset from Manage apps page",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PI",
+    "developer": "ian-beckles",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PERF-3",
+    "pr": {
+      "prNumber": 25139,
+      "prTitle": "PERF-3: Performance: Slow Query on purchase_orders",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25139",
+      "prLabels": [
+        "Needs QA Validation",
+        "Team - Performance"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/2654833"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PERF-3",
+      "jiraUrl": "https://appdirect.jira.com/browse/PERF-3",
+      "jiraSummary": "Performance: Slow Query on purchase_orders",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PERF",
+    "developer": "cliangdev",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PSDS-14",
+    "pr": {
+      "prNumber": 25112,
+      "prTitle": "PSDS-14/SWISCOM-1036 Support different languages in Swisscom Bill",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25112",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Needs Merge Validation",
+        "Needs PM Approval",
+        "Needs QA Validation",
+        "PSDS - Team",
+        "Team - TPMMB"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PSDS-14",
+      "jiraUrl": "https://appdirect.jira.com/browse/PSDS-14",
+      "jiraSummary": "Supporting different languages on the Swisscom bill",
+      "issueType": "Epic",
+      "isBlocker": false
+    },
+    "team": "PSDS",
+    "developer": "enzobiancato",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "APPD-296",
+    "pr": {
+      "prNumber": 25098,
+      "prTitle": "[APPD-296] Bind and Unbind Devices UI",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25098",
+      "prLabels": [
+        "Frontend",
+        "Needs Merge Validation",
+        "PM Approved",
+        "QA Validated",
+        "Team - AppDevices",
+        "UI Approved"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": "http://www.screencast.com/t/KHYmZJCNevVM",
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/18311684"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "APPD-296",
+      "jiraUrl": "https://appdirect.jira.com/browse/APPD-296",
+      "jiraSummary": "[UI] Bind&Unbind Device Owner",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "APPD",
+    "developer": "cdhorne",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "FICO-292",
+    "pr": {
+      "prNumber": 25079,
+      "prTitle": "FICO-292: SOW 4 login redirect",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25079",
+      "prLabels": [
+        "Needs Merge Validation",
+        "Needs QA Validation",
+        "Team - IAM",
+        "Team - TPMGC"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "FICO-292",
+      "jiraUrl": "https://appdirect.jira.com/browse/FICO-292",
+      "jiraSummary": "SOW 4 : Login Redirect ",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "FICO",
+    "developer": "bmatiasx",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-11050",
+    "pr": {
+      "prNumber": 25034,
+      "prTitle": "Pay unpaid invoice from the Invoice Detail for a BAAS marketplace / Channel Admin User",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25034",
+      "prLabels": [
+        "Needs QA Validation",
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-11050",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-11050",
+      "jiraSummary": "Order Product: Pay unpaid invoice from the Invoice Detail for a BAAS marketplace / Channel Admin User",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "cliangdev",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-10543",
+    "pr": {
+      "prNumber": 25030,
+      "prTitle": "DS-10543: Network Publishing",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/25030",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-10543",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-10543",
+      "jiraSummary": "Network Publishing",
+      "issueType": "Epic",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "GrahamJohnson",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-7936",
+    "pr": {
+      "prNumber": 24979,
+      "prTitle": "[DS-7936] Listing & Read OrderCartApi",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24979",
+      "prLabels": [
+        "Needs QA Validation",
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-7936",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-7936",
+      "jiraSummary": "OrderCartApi - listing & read",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "minqizhou",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "IBM-1141",
+    "pr": {
+      "prNumber": 24960,
+      "prTitle": "[IBM-1141] Add missing Addon (v1) APIs for IBM headless commerce initiative",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24960",
+      "prLabels": [
+        "TPMN"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "IBM-1141",
+      "jiraUrl": "https://appdirect.jira.com/browse/IBM-1141",
+      "jiraSummary": "Headless Checkout API: Add-Ons",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "IBM",
+    "developer": "picaron",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "MP-12058",
+    "pr": {
+      "prNumber": 24934,
+      "prTitle": "MP-12058 [Rogers] Add capability to save quotes from Billing Details page.",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24934",
+      "prLabels": [
+        "Needs PM Approval",
+        "Needs QA Validation",
+        "Team - MP"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/13333656"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "MP-12058",
+      "jiraUrl": "https://appdirect.jira.com/browse/MP-12058",
+      "jiraSummary": "[Rogers] Add capability to save quotes from Billing Details page",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "MP",
+    "developer": "esimon1",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "SWISSCOM-1070",
+    "pr": {
+      "prNumber": 24920,
+      "prTitle": "SWISSCOM-1070 - RUN commissioning report - date to be changed",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24920",
+      "prLabels": [
+        "Needs QA Validation",
+        "Team - TPMMB"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "SWISSCOM-1070",
+      "jiraUrl": "https://appdirect.jira.com/browse/SWISSCOM-1070",
+      "jiraSummary": "RUN commissioning report - date to be changed",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "SWISSCOM",
+    "developer": "manishbharti",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "COM-972",
+    "pr": {
+      "prNumber": 24902,
+      "prTitle": "COM-972-Comcast SOW6 missing requirement Annual Recurring Charge (ARC)",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24902",
+      "prLabels": [
+        "Needs Merge Validation",
+        "Needs QA Validation",
+        "PSDS - Team",
+        "Team - TPMLV"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "COM-972",
+      "jiraUrl": "https://appdirect.jira.com/browse/COM-972",
+      "jiraSummary": "Comcast SOW6 missing requirement Annual Recurring Charge (ARC)",
+      "issueType": "Story",
+      "isBlocker": true
+    },
+    "team": "COM",
+    "developer": "enzo366",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PI-5431",
+    "pr": {
+      "prNumber": 24896,
+      "prTitle": "JIRA: PI-5431 User sync should show up after rejecting invitation",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24896",
+      "prLabels": [
+        "Team - PI"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PI-5431",
+      "jiraUrl": "https://appdirect.jira.com/browse/PI-5431",
+      "jiraSummary": "Users who have a revoked invitation should appear in UserSync Table",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PI",
+    "developer": "parthaam",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "AM-4625",
+    "pr": {
+      "prNumber": 24856,
+      "prTitle": "AM-4625: Move OAuth related to security-oauth module",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24856",
+      "prLabels": [
+        "Needs QA Validation",
+        "Team - IAM"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "AM-4625",
+      "jiraUrl": "https://appdirect.jira.com/browse/AM-4625",
+      "jiraSummary": "Move OAuth related to its own module in security",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "AM",
+    "developer": "marcantoine-bibeau",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-9289",
+    "pr": {
+      "prNumber": 24848,
+      "prTitle": "DS-9289 Billing Panel v2 for credit card",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24848",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/1045997"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-9289",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-9289",
+      "jiraSummary": "Add credit card library / ui in the skeleton",
+      "issueType": "Epic",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "scoquelin",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PA-1291",
+    "pr": {
+      "prNumber": 24795,
+      "prTitle": "[PA-1291] Use FetchType.LAZY for OneToOne and ManyToOne associations",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24795",
+      "prLabels": [
+        "DO NOT MERGE"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/294907"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PA-1291",
+      "jiraUrl": "https://appdirect.jira.com/browse/PA-1291",
+      "jiraSummary": "Hibernate Performance: Use FetchType.LAZY for all @OneToOne and @ManyToOne associations",
+      "issueType": "Epic",
+      "isBlocker": false
+    },
+    "team": "PA",
+    "developer": "fivos",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "MP-12202",
+    "pr": {
+      "prNumber": 24735,
+      "prTitle": "MP-12202 Add capability to save quotes from the Billing Details page.",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24735",
+      "prLabels": [
+        "Needs QA Validation",
+        "Team - MP"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/13333656"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "MP-12202",
+      "jiraUrl": "https://appdirect.jira.com/browse/MP-12202",
+      "jiraSummary": "Add core capability to save quotes from Billing Details page",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "MP",
+    "developer": "esimon1",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "MP-12184",
+    "pr": {
+      "prNumber": 24687,
+      "prTitle": "MP-12184 EAT dev Productivity - Remove Detach Criteria from ResellerS…",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24687",
+      "prLabels": [
+        "Team - MP"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "MP-12184",
+      "jiraUrl": "https://appdirect.jira.com/browse/MP-12184",
+      "jiraSummary": "EAT dev Productivity - Remove Detach Criteria from ResellerServices",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "MP",
+    "developer": "alexperreault-aube",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TPMLV-976",
+    "pr": {
+      "prNumber": 24668,
+      "prTitle": "[TPMLV-976] Comcast AWS migration scripts",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24668",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Migration",
+        "Team - TPMLV"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TPMLV-976",
+      "jiraUrl": "https://appdirect.jira.com/browse/TPMLV-976",
+      "jiraSummary": "Write DB script to get clean Comcast production data for migration to the new instance. ",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "TPMLV",
+    "developer": "elfer12",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "MP-12028",
+    "pr": {
+      "prNumber": 24629,
+      "prTitle": "MP-12028 Upon activating a new self serve marketplace, users should receive an mail with the link to the markeptlace",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24629",
+      "prLabels": [
+        "QA Validated",
+        "Team - MP"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "MP-12028",
+      "jiraUrl": "https://appdirect.jira.com/browse/MP-12028",
+      "jiraSummary": "As a self-serve customer when I click on the activation link, upon creation of the marketplace I receive an email with a link to my marketplace",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "MP",
+    "developer": "syzboy",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-10097",
+    "pr": {
+      "prNumber": 24585,
+      "prTitle": "[DS-9362] OrderCart & PurchaseOrder Mapper",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24585",
+      "prLabels": null,
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-10097",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-10097",
+      "jiraSummary": "Create PurchaseOrderWsMapper - Implementation",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "minqizhou",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-9289",
+    "pr": {
+      "prNumber": 24584,
+      "prTitle": "DS-9289 Add Front-End for the credit card payment method + mock data",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24584",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Frontend",
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/1045997"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-9289",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-9289",
+      "jiraSummary": "Add credit card library / ui in the skeleton",
+      "issueType": "Epic",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "emagnier",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-9535",
+    "pr": {
+      "prNumber": 24193,
+      "prTitle": "DS-9535 - Create Order V2 FAQ popup",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24193",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Frontend",
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/6657634"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-9535",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-9535",
+      "jiraSummary": "Create Order V2: FAQ pop-up",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "northamerican",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TPMMB-886",
+    "pr": {
+      "prNumber": 24173,
+      "prTitle": "TPMMB-886 - restrict activation token to be 6 character alpha numerics for TeliaFiB2C.",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24173",
+      "prLabels": [
+        "Needs Automation Run",
+        "Needs Merge Validation",
+        "Needs PM Approval",
+        "Needs QA Validation",
+        "Team - TPMMB"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TPMMB-886",
+      "jiraUrl": "https://appdirect.jira.com/browse/TPMMB-886",
+      "jiraSummary": "Telia B2C: Custom Invitation and Activation Codes",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "TPMMB",
+    "developer": "prashant-gupta",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "AM-4189",
+    "pr": {
+      "prNumber": 24126,
+      "prTitle": "AM-4189 Assignable apps searchable by group",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24126",
+      "prLabels": [
+        "Needs QA Validation"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "AM-4189",
+      "jiraUrl": "https://appdirect.jira.com/browse/AM-4189",
+      "jiraSummary": "Search apps by group API ",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "AM",
+    "developer": "enriquedacostacambio",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-9182",
+    "pr": {
+      "prNumber": 24124,
+      "prTitle": "DS-9182 New Backbone panel for billing information ",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24124",
+      "prLabels": [
+        "Frontend",
+        "Impacts Automation",
+        "Needs QA Validation",
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/1045997"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-9182",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-9182",
+      "jiraSummary": "Kickstart a skeleton to contain the backbone page for billing information / payment method selection during the checkout flow",
+      "issueType": "Epic",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "emagnier",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-9640",
+    "pr": {
+      "prNumber": 24046,
+      "prTitle": "DS-9640 - Choose Edition Panel",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24046",
+      "prLabels": [
+        "DO NOT MERGE"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/155270"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-9640",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-9640",
+      "jiraSummary": "Create Order V2: Choose Edition Panel",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "dmitrytorba",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TPMLV-857",
+    "pr": {
+      "prNumber": 24013,
+      "prTitle": "[TPMLV-857] Validation for CustomAttributes during migration",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24013",
+      "prLabels": [
+        "DO NOT MERGE",
+        "QA Validated",
+        "Team - TPMLV",
+        "Verified To Merge"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TPMLV-857",
+      "jiraUrl": "https://appdirect.jira.com/browse/TPMLV-857",
+      "jiraSummary": "Add validation on migration custom form fields",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "TPMLV",
+    "developer": "elfer12",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TELS-1656",
+    "pr": {
+      "prNumber": 24000,
+      "prTitle": "TELS-1656 To remove product settings page from Symantic Veritas Product",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/24000",
+      "prLabels": [
+        "QA Validated",
+        "Team - TPMPR"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TELS-1656",
+      "jiraUrl": "https://appdirect.jira.com/browse/TELS-1656",
+      "jiraSummary": "To remove the product setting page of Veritas Enterprise Vault.cloud /Veritas Enterprise Vault Enhanced.cloud",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "TELS",
+    "developer": "priyesh-jft",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TEL-553",
+    "pr": {
+      "prNumber": 23929,
+      "prTitle": "TEL-553: remove invoice amount for telia",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/23929",
+      "prLabels": [
+        "DO NOT MERGE"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/2430288"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TEL-553",
+      "jiraUrl": "https://appdirect.jira.com/browse/TEL-553",
+      "jiraSummary": "Remove outstanding amount from invoices on market places",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "TEL",
+    "developer": "liviuignat",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-9291",
+    "pr": {
+      "prNumber": 23830,
+      "prTitle": "DS-9291 - demo 'preview ordercart' api",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/23830",
+      "prLabels": [
+        "DO NOT MERGE"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-9291",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-9291",
+      "jiraSummary": "Checkout Redesign -API Request and Responses",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "dmitrytorba",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PI-5517",
+    "pr": {
+      "prNumber": 23630,
+      "prTitle": "PI-5517 : Azure Billed on a specific day.",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/23630",
+      "prLabels": [
+        "Needs Merge Validation",
+        "QA Validated",
+        "Team - DS",
+        "Team - PI"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/1963065"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PI-5517",
+      "jiraUrl": "https://appdirect.jira.com/browse/PI-5517",
+      "jiraSummary": "[ACSP] Azure Billing on a specific Day",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PI",
+    "developer": "bigsiri",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-8797",
+    "pr": {
+      "prNumber": 23370,
+      "prTitle": "Payment instrument custom payment method: paypal express",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/23370",
+      "prLabels": [
+        "Needs QA Validation",
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/2654833"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-8797",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-8797",
+      "jiraSummary": "CLONE - Payment Instrument API: Custom Payment Methods",
+      "issueType": "Epic",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "cliangdev",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-7878",
+    "pr": {
+      "prNumber": 23365,
+      "prTitle": "DS-7878 - create order page v2 laucher",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/23365",
+      "prLabels": [],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/155270"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-7878",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-7878",
+      "jiraSummary": "Create Order V2: purchase page launcher",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "dmitrytorba",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-7879",
+    "pr": {
+      "prNumber": 23162,
+      "prTitle": "DS-7879 - refactor addonv2 classes for checkoutv2",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/23162",
+      "prLabels": [
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-7879",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-7879",
+      "jiraSummary": "Create Order V2: add-on refactor for reuse",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "dmitrytorba",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TPMLV-654",
+    "pr": {
+      "prNumber": 22785,
+      "prTitle": "https://appdirect.jira.com/browse/TPMLV-654",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/22785",
+      "prLabels": [],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TPMLV-654",
+      "jiraUrl": "https://appdirect.jira.com/browse/TPMLV-654",
+      "jiraSummary": "Add delay for 90 seconds to notifications",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "TPMLV",
+    "developer": "esfand-r",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TPMLV-654",
+    "pr": {
+      "prNumber": 22349,
+      "prTitle": "TPMLV-654-Delay between task creation for bundles where we have 2 billing event",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/22349",
+      "prLabels": [
+        "QA Validated",
+        "Team - TPMLV"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TPMLV-654",
+      "jiraUrl": "https://appdirect.jira.com/browse/TPMLV-654",
+      "jiraSummary": "Add delay for 90 seconds to notifications",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "TPMLV",
+    "developer": "esfand-r",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "ATT-1224",
+    "pr": {
+      "prNumber": 22163,
+      "prTitle": "ATT-1224 decrease License Count Feature",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/22163",
+      "prLabels": [
+        "QA Validated",
+        "Team - TPMGC"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "ATT-1224",
+      "jiraUrl": "https://appdirect.jira.com/browse/ATT-1224",
+      "jiraSummary": "Decrease License Count Feature",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "ATT",
+    "developer": "praveen-jft",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TPMGC-599",
+    "pr": {
+      "prNumber": 22122,
+      "prTitle": "TPMGC-599 refactor externalIdentifier formatter (NEXTEL) with extension",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/22122",
+      "prLabels": [
+        "Team - TPMGC"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TPMGC-599",
+      "jiraUrl": "https://appdirect.jira.com/browse/TPMGC-599",
+      "jiraSummary": "Nextel - refactor the PTN formatting to use an extension instead",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "TPMGC",
+    "developer": "naz911",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "MP-10505",
+    "pr": {
+      "prNumber": 22066,
+      "prTitle": "MP-10505: As a Softbank Marketplace User, I can resume a quote in the \"Confirm Order\" page",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/22066",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Team - MP"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/15632366"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "MP-10505",
+      "jiraUrl": "https://appdirect.jira.com/browse/MP-10505",
+      "jiraSummary": "[Softbank] As a Softbank Marketplace User, I can resume a quote in the \"Confirm Order\" page",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "MP",
+    "developer": "jlepage-appdirect",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TPMLV-576",
+    "pr": {
+      "prNumber": 22029,
+      "prTitle": "TPMLV-576-Creation/Update of Custom attribute values in LEAD API",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/22029",
+      "prLabels": [
+        "Needs Automation Run",
+        "QA Validated"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/9097802"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TPMLV-576",
+      "jiraUrl": "https://appdirect.jira.com/browse/TPMLV-576",
+      "jiraSummary": "Creation/Update of Custom attribute values in LEAD API",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "TPMLV",
+    "developer": "enzo366",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "ATT-1223",
+    "pr": {
+      "prNumber": 20996,
+      "prTitle": "ATT-1223 Increase License Count Feature",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/20996",
+      "prLabels": [
+        "QA Validated",
+        "Team - TPMGC"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "ATT-1223",
+      "jiraUrl": "https://appdirect.jira.com/browse/ATT-1223",
+      "jiraSummary": "Increase License Count Feature",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "ATT",
+    "developer": "praveen-jft",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TPMA-1104",
+    "pr": {
+      "prNumber": 20423,
+      "prTitle": "[TPMA-1104] Refactor usages of company.getTelstraDealer()",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/20423",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Needs QA Validation"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TPMA-1104",
+      "jiraUrl": "https://appdirect.jira.com/browse/TPMA-1104",
+      "jiraSummary": "Remove TelstraDealer from Company",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "TPMA",
+    "developer": "fivos",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "IN-500",
+    "pr": {
+      "prNumber": 19984,
+      "prTitle": "IN-500 : [SpendCTRL] Purge Azure Usages and Azure Usage Items",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/19984",
+      "prLabels": [
+        "QA Validated",
+        "Team - Infra"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/11503414"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "IN-500",
+      "jiraUrl": "https://appdirect.jira.com/browse/IN-500",
+      "jiraSummary": "[SpendCTRL] Purge Azure Usages and Azure Usage Items",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "IN",
+    "developer": "bigsiri",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "IN-555",
+    "pr": {
+      "prNumber": 19908,
+      "prTitle": "IN-555 Email Template & Threshold configuration",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/19908",
+      "prLabels": [
+        "Team - Infra"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "IN-555",
+      "jiraUrl": "https://appdirect.jira.com/browse/IN-555",
+      "jiraSummary": "[SpendCTRL] Email Template & Threshold configuration",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "IN",
+    "developer": "francisl",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PI-4520",
+    "pr": {
+      "prNumber": 19713,
+      "prTitle": "[PI-4520] google domain verification",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/19713",
+      "prLabels": [
+        "Needs QA Validation",
+        "Team - PI"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PI-4520",
+      "jiraUrl": "https://appdirect.jira.com/browse/PI-4520",
+      "jiraSummary": "Google + domain: verify the domain and add Record",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PI",
+    "developer": "davidchau",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "PI-4334",
+    "pr": {
+      "prNumber": 19640,
+      "prTitle": "[PI-4334] Purchase google with domain",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/19640",
+      "prLabels": [
+        "DO NOT MERGE"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "PI-4334",
+      "jiraUrl": "https://appdirect.jira.com/browse/PI-4334",
+      "jiraSummary": "BE: Purchase domain with google",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "PI",
+    "developer": "davidchau",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "MP-4819",
+    "pr": {
+      "prNumber": 19098,
+      "prTitle": "MP-4819 :- Add filters, search, and download CSV funtionality to Users table in Company Details page.",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/19098",
+      "prLabels": [
+        "Needs QA Validation",
+        "Team - MP"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "MP-4819",
+      "jiraUrl": "https://appdirect.jira.com/browse/MP-4819",
+      "jiraSummary": "Add filters, search, and download CSV funtionality to Users table in Company Details page",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "MP",
+    "developer": "praveen-jft",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TPMUS-3064",
+    "pr": {
+      "prNumber": 19028,
+      "prTitle": "TPMUS-3064: Added channel tasks panel",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/19028",
+      "prLabels": [
+        "Frontend",
+        "Needs QA Validation"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": [
+        "https://cloud.githubusercontent.com/assets/1390221"
+      ],
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TPMUS-3064",
+      "jiraUrl": "https://appdirect.jira.com/browse/TPMUS-3064",
+      "jiraSummary": "UI to Show & Retry Failed Contracts",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "TPMUS",
+    "developer": "tristanbbq",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "TPMMB-417",
+    "pr": {
+      "prNumber": 18574,
+      "prTitle": "TPMMB-417 - Moving SFTP client implementation from appdirect-core to appdirect-file-manager-impl",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/18574",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Needs QA Validation",
+        "Team - TPMMB"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "TPMMB-417",
+      "jiraUrl": "https://appdirect.jira.com/browse/TPMMB-417",
+      "jiraSummary": "Move SFTP client implementation from appdirect-core to appdirect-file-manager-api",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "TPMMB",
+    "developer": "scoquelin",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "UE-1730",
+    "pr": {
+      "prNumber": 18278,
+      "prTitle": "[WIP] UE-1730 responsive acme header",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/18278",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Frontend",
+        "Impacts Automation",
+        "Team - UIF"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "UE-1730",
+      "jiraUrl": "https://appdirect.jira.com/browse/UE-1730",
+      "jiraSummary": "Responsive ACME Header",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "UE",
+    "developer": "alice-liu",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "DS-5941",
+    "pr": {
+      "prNumber": 18209,
+      "prTitle": "DS-5941: avalara tax API client",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/18209",
+      "prLabels": [
+        "Needs QA Validation",
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "DS-5941",
+      "jiraUrl": "https://appdirect.jira.com/browse/DS-5941",
+      "jiraSummary": "Avalara Tax jBilling Setting Sync",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "DS",
+    "developer": "aleyaciuk",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  },
+  {
+    "id": "BILL-555",
+    "pr": {
+      "prNumber": 17995,
+      "prTitle": "Bill 555 - Finalize order asynchronously for new subscription",
+      "prUrl": "https://github.com/AppDirect/AppDirect/pull/17995",
+      "prLabels": [
+        "DO NOT MERGE",
+        "Needs Automation Run",
+        "Team - DS"
+      ],
+      "prMergedAt": null,
+      "releaseBranchMergedTo": null,
+      "screencastLink": null,
+      "screenShotLinks": null,
+      "testRailLinks": null,
+      "addToReleaseNotes": false
+    },
+    "jiraTicket": {
+      "jiraId": "BILL-555",
+      "jiraUrl": "https://appdirect.jira.com/browse/BILL-555",
+      "jiraSummary": "As a customer, on a New Subscription purchase confirmation, I want to finalize the Purchase Order in an async task when the ISV has responded successfully so that I get the order receipt page faster",
+      "issueType": "Story",
+      "isBlocker": false
+    },
+    "team": "BILL",
+    "developer": "malacroix",
+    "qa": null,
+    "pm": null,
+    "notes": null
+  }
+]

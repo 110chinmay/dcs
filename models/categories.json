@@ -1,0 +1,327 @@
+{
+    "categories": [
+        {
+            "name": "Mobiles",
+            "id": 1,
+            "status": 1,
+            "categories": [
+                {
+                    "name": "Mobile Phones",
+                    "id": 11,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Tablets",
+                    "id": 12,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Accesories",
+                    "id": 13,
+                    "status": 1,
+                    "categories": []
+                }
+            ]
+        },
+        {
+            "name": "Electronics",
+            "id": 2,
+            "status": 1,
+            "categories": [
+                {
+                    "name": "Computers & Laptops",
+                    "id": 21,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "TVs, Video - Audio",
+                    "id": 22,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Hard Disks, Printers & Monitors",
+                    "id": 23,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "AC's",
+                    "id": 24,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Washing Machines",
+                    "id": 25,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Fridges",
+                    "id": 26,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Computer Accessories",
+                    "id": 27,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Cameras & Lenses",
+                    "id": 28,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Kitchen & Other Appliances",
+                    "id": 29,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Games & Entertainment",
+                    "id": 30,
+                    "status": 1,
+                    "categories": []
+                }
+
+            ]
+        },
+        {
+            "name": "Cars",
+            "id": 3,
+            "status": 1,
+            "categories": [
+                {
+                    "name": "Cars",
+                    "id": 31,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Commercial Vehicles",
+                    "id": 32,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Other Vehicles",
+                    "id": 33,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Spare Parts",
+                    "id": 34,
+                    "status": 1,
+                    "categories": []
+                }
+            ]
+        },
+        {
+            "name": "Bikes",
+            "id": 4,
+            "status": 1,
+            "categories": [
+                {
+                    "name": "Motorcycles",
+                    "id": 41,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Scooters",
+                    "id": 42,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Bicycles",
+                    "id": 43,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Spare Parts",
+                    "id": 44,
+                    "status": 1,
+                    "categories": []
+                }
+            ]
+        },
+        {
+            "name": "Furniture",
+            "id": 5,
+            "status": 1,
+            "categories": [
+                {
+                    "name": "Sofa & Dining",
+                    "id": 51,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Beds & Wardrobes",
+                    "id": 52,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Home Decor & Garden",
+                    "id": 53,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Other Household Items",
+                    "id": 54,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Kids Furniture",
+                    "id": 55,
+                    "status": 1,
+                    "categories": []
+                }
+            ]
+        },
+        {
+            "name": "Books, Sports, hobbies",
+            "id": 6,
+            "status": 1,
+            "categories": [
+                {
+                    "name": "Books",
+                    "id": 61,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Musical Instruments",
+                    "id": 62,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Sports Equipment",
+                    "id": 63,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Gym & Fitness",
+                    "id": 64,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Other Hobbies",
+                    "id": 65,
+                    "status": 1,
+                    "categories": []
+                }
+            ]
+        },
+        {
+            "name": "Fashion",
+            "id": 7,
+            "status": 1,
+            "categories": [
+                {
+                    "name": "Men",
+                    "id": 71,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Women",
+                    "id": 72,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Kids",
+                    "id": 73,
+                    "status": 1,
+                    "categories": []
+                }
+            ]
+        },
+        {
+            "name": "Pets",
+            "id": 8,
+            "status": 1,
+            "categories": [
+                {
+                    "name": "Fishes & Aquarium",
+                    "id": 81,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Dogs",
+                    "id": 82,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Other Pets",
+                    "id": 83,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Pet Food & Accessories",
+                    "id": 84,
+                    "status": 1,
+                    "categories": []
+                }
+            ]
+        },
+        {
+            "name": "Real Estate",
+            "id": 9,
+            "status": 1,
+            "categories": [
+                {
+                    "name": "Rent",
+                    "id": 91,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Sale",
+                    "id": 92,
+                    "status": 1,
+                    "categories": []
+                }
+            ]
+        },
+        {
+            "name": "Jobs & Services",
+            "id": 10,
+            "status": 1,
+            "categories": [
+                {
+                    "name": "Jobs",
+                    "id": 101,
+                    "status": 1,
+                    "categories": []
+                },
+                {
+                    "name": "Services",
+                    "id": 102,
+                    "status": 1,
+                    "categories": []
+                }
+            ]
+        }
+    ]
+}
