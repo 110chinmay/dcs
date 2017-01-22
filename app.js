@@ -16,6 +16,9 @@ var db = mongoose.connection;
 app.use('/public', express.static(__dirname + '/public'));
 app.use('/bower_components', express.static(__dirname + '/bower_components'));
 
+app.get('/*', function(req, res){
+    res.sendfile('./public/angular/index.html');
+});
 app.get('/', function(req, res){
     res.sendfile('./public/angular/index.html');
 });

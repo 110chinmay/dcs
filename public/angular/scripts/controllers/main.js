@@ -8,6 +8,6 @@
  * Controller of the dcsUiApp
  */
 angular.module('dcsUiApp')
-  .controller('MainCtrl', function ($rootScope, $scope, $filter, $window, $location, dataService, uiGridConstants) {
+  .controller('MainCtrl', function ($rootScope, $scope) {
 
   });
