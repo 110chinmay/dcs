@@ -9,7 +9,7 @@ User = require('./models/user');
 Adv = require('./models/adv');
 
 // Connect to Mongoose
-mongoose.connect('mongodb://localhost/dcs');
+mongoose.connect('mongodb://rohit-dhore:rohit@cz123@ds015889.mlab.com:15889/dcs');
 
 var db = mongoose.connection;
 
