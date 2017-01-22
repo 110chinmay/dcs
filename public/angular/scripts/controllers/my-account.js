@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name dcsUiApp.controller:HeaderCtrl
+ * @name dcsUiApp.controller:MyAccountCtrl
  * @description
- * # HeaderCtrl
+ * # MyAccountCtrl
  * Controller of the Header page
  */
 angular.module('dcsUiApp')
-  .controller('HeaderCtrl', function($scope, $rootScope) {
+  .controller('MyAccountCtrl', function($scope, $rootScope) {
 
   });

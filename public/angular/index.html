@@ -21,25 +21,48 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="public/angular/styles/main.css">
+    <link rel="stylesheet" href="public/angular/styles/header.css">
     <!-- endbuild -->
   </head>
 
-  <body ng-app="dcsUiApp">
+  <body ng-app="dcsUiApp" class="height-100">
     <!-- Add your site or application content here -->
-    <div id="newnav" class="col-xs-12 pad-left-right-0" ng-controller="HeaderCtrl">
+    <div id="newnav" class="col-xs-12 pad-left-right-0 main-nav" ng-controller="HeaderCtrl">
       <header class="nav main-nav col-xs-12 pad-left-right-0">
-        
+        <div class="header-container">
+            <div class="logo">
+                <a href="/">
+                    <img src="../public/angular/images/cns_logo.png">
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <button class="btn btn-warning post-ad-btn">POST FREE AD</button>
+                </li>
+                <li><a href="">Sign Up</a></li>
+                <li><a href="#news">Login</a></li>
+            </ul>
+        </div>
       </header>  
     </div>
     
     <div class="view-container">
+      
       <div ng-view=""></div>
     </div>
-    <div class="footer">
-      <div class="container text-center">
-        <p>DCS</p>
-      </div>
-    </div>
+    <footer>
+        <div class="col-sm-12 pad-left-right-0 footer-container">
+            <div class="footer-container-image">
+                <div class="wrapper">
+                    <a class="icon mobile-homepage block rel" href="#/" target="_blank">
+                        Download DCS for your mobile</a>
+                </div>
+            </div>
+            <div class="secondary-footer">
+                <p>DCS</p>
+            </div>
+        </div>
+    </footer>
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -49,7 +72,6 @@
     <script src="bower_components/angular-route/angular-route.min.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
     <script src="bower_components/angular-touch/angular-touch.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/3.2.9/ui-grid.min.js"></script>
     <script src="bower_components/moment/min/moment.min.js"></script>
     <script src="bower_components/angular-ui-select/dist/select.min.js"></script>
@@ -61,6 +83,12 @@
     <script src="public/angular/scripts/controllers/main.js"></script>
     <script src="public/angular/scripts/controllers/login.js"></script>
     <script src="public/angular/scripts/controllers/header.js"></script>
+    <script src="public/angular/scripts/controllers/categories.js"></script>
+    <script src="public/angular/scripts/controllers/categories-listing.js"></script>
+    <script src="public/angular/scripts/controllers/detail-view.js"></script>
+    <script src="public/angular/scripts/controllers/my-account.js"></script>
+    <script src="public/angular/scripts/controllers/submit-new-ad.js"></script>
+    <script src="public/angular/scripts/directives/toputilitybar.js"></script>
     <script src="public/angular/scripts/services/dataservice.js"></script>
     <script src="public/angular/scripts/filters/customfilter.js"></script>
     <!-- endbuild -->
