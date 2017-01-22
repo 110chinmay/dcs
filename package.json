@@ -2,17 +2,18 @@
   "name": "dcs",
   "version": "1.0.0",
   "description": "classified service",
-  "main": "app.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "npm install bower -g && bower install"
+  },
   "dependencies": {
     "express": "*",
     "body-parser": "*",
-    "mongoose": "*"
+    "mongoose": "*",
+    "dotenv": "^2.0.0"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rohitdhore/dcs.git"
@@ -24,3 +25,4 @@
   },
   "homepage": "https://github.com/rohitdhore/dcs#readme"
 }
+
