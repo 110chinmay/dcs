@@ -3,10 +3,6 @@
 const User = require('../models/user');
 
 module.exports = (app) => {
-  app.get('/', function(req, res){
-      res.sendfile('./public/angular/index.html');
-  });
-
   //Get all users
   app.get('/api/users', function(req, res){
       User.getUsers(function(err, users){
@@ -59,9 +55,5 @@ module.exports = (app) => {
           }
           res.json(user);
       })
-  });
-
-  app.get('/*', function(req, res){
-    res.sendfile('./public/angular/index.html');
   });
 };
