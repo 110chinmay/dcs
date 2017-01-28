@@ -8,6 +8,8 @@
  * Controller of the dcsUiApp
  */
 angular.module('dcsUiApp')
-  .controller('MainCtrl', function ($rootScope, $scope) {
-
-  });
+.controller('MainCtrl', function ($rootScope, $scope, Ads) {
+	Ads.getAll().then(function(response){
+		console.log(response);
+	});
+});

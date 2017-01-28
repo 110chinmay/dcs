@@ -8,6 +8,6 @@
  * Controller of the Header page
  */
 angular.module('dcsUiApp')
-  .controller('HeaderCtrl', function($scope, $rootScope) {
+.controller('HeaderCtrl', function($scope, $rootScope) {
 
-  });
+});

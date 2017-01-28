@@ -8,6 +8,6 @@
  * Controller of the Header page
  */
 angular.module('dcsUiApp')
-  .controller('SubmitNewAdCtrl', function($scope, $rootScope) {
+.controller('SubmitNewAdCtrl', function($scope, $rootScope) {
 
-  });
+});

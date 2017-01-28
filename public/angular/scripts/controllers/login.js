@@ -8,6 +8,6 @@
  * Controller of the Login page
  */
 angular.module('dcsUiApp')
-  .controller('LoginCtrl', function($scope, $location) {
+.controller('LoginCtrl', function($scope, $location) {
 
-  });
+});

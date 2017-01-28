@@ -8,6 +8,6 @@
  * Controller of the dcsUiApp
  */
 angular.module('dcsUiApp')
-  .controller('DetailViewCtrl', function ($rootScope, $scope) {
+.controller('DetailViewCtrl', function ($rootScope, $scope) {
 
-  });
+});
