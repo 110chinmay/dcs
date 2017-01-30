@@ -11,7 +11,7 @@ angular.module('dcsUiApp')
   .service('Categories', function($http) {
 	var api_url = '/api/categories';
 	var apiObject = {
-		getAll: function() {
+		getAll: function(cat_id) {
 			return $http.get(api_url)
 			.then(function(response) {
 				return response;
@@ -19,6 +19,12 @@ angular.module('dcsUiApp')
 		},
 		getById: function(req) {
 			return $http.get(api_url + req.id)
+			.then(function(response) {
+				return response;
+			});
+		},
+		getByParentId: function(parentId) {
+			return $http.get(api_url + parentId)
 			.then(function(response) {
 				return response;
 			});

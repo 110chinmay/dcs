@@ -2,4 +2,39 @@
 <div id="cover" ng-show="displaySpinner">
   <div class="spinner"></div>
 </div>
-<h1>Categories page</h1>
+<div class="col-xs-12 pad-left-right-0 all-categories">
+    <div class="content-holder">
+        <top-utility-bar fullview="true"></top-utility-bar>
+        <div class="col-xs-12 pad-left-right-0 add-hor">
+            <h3>Ad sense goes here</h3>
+        </div>
+        <div class="col-xs-12 pad-left-right-0">
+            <div class="col-xs-4 pad-left-right-0 height-100 main-category-holder">
+                <div class="top-bar">
+                    
+                </div>
+                <div class="col-xs-12 pad-left-right-0 categories">
+                    <div class="col-xs-12 pad-left-right-0 main-category" ng-repeat="category in categories" 
+                    ng-click="onCategoryClick(category)" 
+                    ng-class="{'main-category-selected' : category.cat_id == currentCategoryId}">
+                        <div class="title" ng-bind="category.title"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-8  pad-left-right-0 height-100 category-right">
+                <div class="col-xs-12 pad-left-right-0 subcategories-main">
+                    <div class="col-xs-12 pad-left-right-0 subcategories-header"></div>
+                    <div class="col-xs-12 pad-left-right-0 subcategories-container">
+                        <div class="col-xs-3 pad-left-right-0 subcategories-wrapper" ng-repeat="subcategory in currentCategory.subCategories" ng-click="onSubCategoryClick(subcategory)">
+                            <div class="col-xs-12 pad-left-right-0 subcategories-image">
+                                
+                            </div>
+                            <div class="col-xs-12 pad-left-right-0 subcategories-title" ng-bind="subcategory.title"></div>
+                        </div>
+                    </div> 
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

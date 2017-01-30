@@ -58,7 +58,7 @@ module.exports.getCategories = function(callback, limit){
             startWith: "$cat_id",
             connectFromField: "cat_id",
             connectToField: "parent",
-            as: "subCategory",
+            as: "subCategories",
             maxDepth: 2,
             depthField: "parent"
             }

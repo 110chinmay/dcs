@@ -22,6 +22,9 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="public/angular/styles/main.css">
     <link rel="stylesheet" href="public/angular/styles/header.css">
+    <link rel="stylesheet" href="public/angular/styles/categories.css">
+    <link rel="stylesheet" href="public/angular/styles/new-ad.css">
+    <link rel="stylesheet" href="public/angular/styles/categories-listing.css">
     <!-- endbuild -->
   </head>
 
@@ -36,8 +39,11 @@
                 </a>
             </div>
             <ul>
-                <li>
-                    <button class="btn btn-warning post-ad-btn">POST FREE AD</button>
+                <li style="margin-bottom: 5px">
+                    <div>
+                        <span style="text-align: right; font-size: 20px; font-weight: 700">9921-177-082</span>
+                    </div>
+                    <button class="btn btn-warning post-ad-btn" ng-click="submitNewAdv()">POST FREE AD</button>
                 </li>
                 <li><a href="">Sign Up</a></li>
                 <li><a href="#news">Login</a></li>
@@ -72,6 +78,7 @@
     <script src="bower_components/angular-route/angular-route.min.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
     <script src="bower_components/angular-touch/angular-touch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/3.2.9/ui-grid.min.js"></script>
     <script src="bower_components/moment/min/moment.min.js"></script>
     <script src="bower_components/angular-ui-select/dist/select.min.js"></script>
