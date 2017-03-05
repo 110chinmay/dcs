@@ -16,7 +16,8 @@ angular.module('dcsUiApp', [
   'ui.select',
   'ui.grid',
   'ui.grid.exporter', 
-  'ui.grid.moveColumns'
+  'ui.grid.moveColumns',
+  'vsGoogleAutocomplete'
 ]).config(function($routeProvider, $locationProvider, $httpProvider) {
     
     $routeProvider
@@ -39,6 +40,10 @@ angular.module('dcsUiApp', [
     .when('/login', {
       templateUrl: 'public/angular/views/login.html',
       controller: 'LoginCtrl'
+    })
+    .when('/signup', {
+      templateUrl: 'public/angular/views/sign-up.html',
+      controller: 'SignupCtrl'
     })
     .when('/myaccount', {
       templateUrl: 'public/angular/views/my-account.html',

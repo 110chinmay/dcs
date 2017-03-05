@@ -1,0 +1,43 @@
+<!-- Loader to display when some server interaction is taking place -->
+<div id="cover" ng-show="displaySpinner">
+  <div class="spinner"></div>
+</div>
+<div class="girdContainer login-container col-sm-12 pad-left-right-0">
+	<div class="col-xs-5 col-sm-5 pad-left-right-0 signup-form"> 
+		<div class="col-xs-6 col-sm-6 pad-left-right-0 signup-form-left">
+		  	<div class="field">
+		  		<h5>Enter mobile</h5>
+		  		<input class="col-xs-12" type="text" name="">
+		  	</div>
+		  	<div class="field">
+		  		<h5>Enter email</h5>
+		  		<input class="col-xs-12" type="text" name="">
+		  	</div>
+		  	<div class="field">
+		  		<h5>Enter name</h5>
+		  		<input class="col-xs-12" type="text" name="">
+		  	</div>
+		</div>
+		<div class="col-xs-6 col-sm-6 pad-left-right-0 signup-form-right">
+		  	<div class="field">
+		  		<h5>Enter password</h5>
+		  		<input class="col-xs-12" type="text" name="">
+		  	</div>
+		  	<div class="field">
+		  		<h5>Re-Enter password</h5>
+		  		<input class="col-xs-12" type="text" name="">
+		  	</div>
+		  	<div class="field">
+				<button class="btn btn-primary" ng-click="loginWithOpenID()">Register</button>
+		  	</div>
+		</div>
+		<div  class="col-xs-12 col-sm-12 pad-left-right-0 signup-social">
+			<div class="col-xs-6 col-sm-6 pad-left-right-0">
+		  		<button class="btn btn-danger" ng-click="loginWithOpenID()">Register with Gmail</button>
+		  	</div>
+		  	<div class="col-xs-6 col-sm-6 pad-left-right-0">
+				<button class="btn btn-primary" ng-click="loginWithOpenID()">Register with Facebook</button>
+		  	</div>
+		</div>
+	</div>
+</div>

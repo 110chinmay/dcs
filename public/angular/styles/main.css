@@ -224,7 +224,70 @@ input {
 }
 
 .login-container {
-  margin: 1%;
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  min-height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+.login-form-mobile {
+  padding: 10px;
+  border-right: 1px solid #ccc;
+}
+
+.login-form-social {
+  padding: 10px 10px 10px 20px;
+}
+
+.field h5 {
+  margin-bottom: 2px;
+}
+
+.field {
+  margin-bottom: 5px;
+}
+.signup-form {
+  min-height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 20px 0 10px 0;
+  padding: 20px 0;
+}
+
+.signup-form-left {
+  padding: 10px;
+  border-right: 1px solid #ccc;
+}
+
+.signup-form-right {
+  padding: 10px 10px 10px 20px;
+}
+
+.signup-social {
+  text-align: center;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.login-action {
+  margin-top: 20px;
+}
+
+.login-gmail {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.login-facebook {
+  text-align: center;
 }
 
 .footer-container {

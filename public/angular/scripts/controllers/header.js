@@ -12,4 +12,8 @@ angular.module('dcsUiApp')
     $scope.submitNewAdv = function(){
         $location.path('/submitnewadv');
     }
+
+    $scope.authenticateUser = function(route) {
+    	$location.path(route);
+    }
 });

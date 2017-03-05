@@ -3,7 +3,11 @@ var mongoose = require('mongoose');
 // Users Schema
 
 var userSchema = mongoose.Schema({
-    name: {
+    username: {
+        type: String,
+        required: true
+    },
+    password: {
         type: String,
         required: true
     },
@@ -12,6 +16,14 @@ var userSchema = mongoose.Schema({
         required: true
     },
     phone: {
+        type: String,
+        required: true
+    },
+    gender: {
+        type: String,
+        required: true
+    },
+    address: {
         type: String,
         required: true
     },
@@ -42,9 +54,11 @@ module.exports.addUser = function(user, callback){
 module.exports.updateUser = function(id, user, options, callback){
     var query = {_id:id};
     var update = {
-        name: user.name,
+        username: user.username,
         email: user.email,
         phone: user.phone,
+        gender: user.gender,
+        address: user.address,
         status: user.status
     }
     User.findOneAndUpdate(query, update, options, callback);

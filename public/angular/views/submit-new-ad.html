@@ -41,11 +41,20 @@
                     </div>
                     <div class="col-xs-12 pad-left-right-0 form-row" >
                         <h4>Enter a City</h4>
-                        <input class="col-xs-11 pad-left-right-0" type="text" name="adv-title">
+                        <input class="col-xs-11 pad-left-right-0" 
+                         vs-google-autocomplete="options_cities"
+                         ng-model="city" 
+                         type="text" 
+                         name="city"
+                         id="city"
+                         class="form-control" 
+                         placeholder="Enter city name"
+                         type="text">
                     </div>
                     <div class="col-xs-12 pad-left-right-0 form-row" >
                         <h4>Enter a Locality (nearby you)</h4>
-                        <input class="col-xs-11 pad-left-right-0" type="text" name="adv-title">
+                        <input class="col-xs-11 pad-left-right-0" type="text" 
+                        vs-google-autocomplete="options_nearby" placeholder="Enter your nearby area" ng-model="address" name="address">
                     </div>
                     <div class="col-xs-12 pad-left-right-0 form-row" >
                         <button class="btn btn-warning post-ad-btn pull-right" ng-click="submitNewAdv()">Submit</button>
