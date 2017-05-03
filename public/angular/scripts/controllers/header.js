@@ -8,6 +8,12 @@
  * Controller of the Header page
  */
 angular.module('dcsUiApp')
-  .controller('HeaderCtrl', function($scope, $rootScope) {
+.controller('HeaderCtrl', function($scope, $rootScope, $location) {
+    $scope.submitNewAdv = function(){
+        $location.path('/submitnewadv');
+    }
 
-  });
+    $scope.authenticateUser = function(route) {
+    	$location.path(route);
+    }
+});

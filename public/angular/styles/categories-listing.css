@@ -1,0 +1,40 @@
+.listing .utility{
+    min-height: 100px;
+    height: auto;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+}
+
+.listing .caregories-nav {
+    padding: 10px 20px 0px 20px;
+    border-bottom: 1px solid #ccc;
+    height: 100px;
+}
+
+.listing .filters {
+    padding: 10px 20px 0px 20px;
+    height: 100px;
+}
+
+.listing .ads-container {
+    min-height: 300px;
+}
+
+.ads-container .featured {
+
+}
+
+.featured .featured-wrapper {
+    min-height: 100px;
+}
+
+.listing .ad-wrapper {
+    min-height: 400px;
+}
+
+.listing .ad-row {
+    background-color: #fff; 
+    height: 130px; border: 1px solid #ccc; 
+    margin: 5px 0 5px 0; 
+    cursor: pointer;
+}

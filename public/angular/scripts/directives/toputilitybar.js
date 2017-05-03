@@ -7,16 +7,23 @@
  * # topUtilityBar
  */
 angular.module('dcsUiApp')
-  .directive('topUtilityBar', function () {
-    return {
-      templateUrl: '/public/angular/views/templates/topUtilityBar.html',
-      restrict: 'E',
-      transclude: false,
-      scope: {
-        fullview: '='
-      },
-      link: function postLink(scope, element, attrs) {
-        
-      }
-    };
-  });
+	.directive('topUtilityBar', function () {
+		var controller = function ($scope) {
+			$scope.options_cities = {
+				types: ['(cities)'],
+				componentRestrictions: { country: 'IN' }
+			}
+		};
+		return {
+			templateUrl: '/public/angular/views/templates/topUtilityBar.html',
+			restrict: 'E',
+			transclude: false,
+			scope: {
+				fullview: '='
+			},
+			controller: controller,
+			link: function postLink(scope, element, attrs) {
+				
+			}
+		};
+	});

@@ -13,6 +13,23 @@ const config = require('./config/index');
 
 mongoose.connect(config.mongoURI);
 
+// Configuring Passport
+var expressSession = require('express-session');
+app.use(expressSession({secret: 'mySecretKey'}));
+var passport = require('passport');
+app.use(passport.initialize());
+app.use(passport.session());
+
+// Using the flash middleware provided by connect-flash to store messages in session
+ // and displaying in templates
+var flash = require('connect-flash');
+app.use(flash());
+
+// Initialize Passport
+var initPassport = require('./passport/init');
+initPassport(passport);
+
+
 // configure midddlewares
 app.use(bodyParser.json());
 

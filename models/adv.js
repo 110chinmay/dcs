@@ -7,7 +7,7 @@ var advSchema = mongoose.Schema({
         required: true
     },
     category: {
-        type: Object,
+        type: Number,
         required: true
     },
     price: {
@@ -52,7 +52,7 @@ var advSchema = mongoose.Schema({
         required: true
     },
     location: {
-        type: Object,
+        type: String,
         required: true
     },
     create_date: {

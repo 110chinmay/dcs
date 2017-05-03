@@ -22,6 +22,9 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="public/angular/styles/main.css">
     <link rel="stylesheet" href="public/angular/styles/header.css">
+    <link rel="stylesheet" href="public/angular/styles/categories.css">
+    <link rel="stylesheet" href="public/angular/styles/new-ad.css">
+    <link rel="stylesheet" href="public/angular/styles/categories-listing.css">
     <!-- endbuild -->
   </head>
 
@@ -30,17 +33,25 @@
     <div id="newnav" class="col-xs-12 pad-left-right-0 main-nav" ng-controller="HeaderCtrl">
       <header class="nav main-nav col-xs-12 pad-left-right-0">
         <div class="header-container">
-            <div class="logo">
-                <a href="/">
-                    <img src="../public/angular/images/cns_logo.png">
-                </a>
-            </div>
-            <ul>
+            
+            <ul class="header-primary-nav-main">
                 <li>
-                    <button class="btn btn-warning post-ad-btn">POST FREE AD</button>
+                    <div class="logo">
+                        <a href="/">
+                            <img src="../public/angular/images/cns_logo.png">
+                        </a>
+                    </div>
                 </li>
-                <li><a href="">Sign Up</a></li>
-                <li><a href="#news">Login</a></li>
+                <ul class="header-primary-nav-links">
+                    <li><a href="javascript:void(0)" ng-click="authenticateUser('/login')">Login</a></li>
+                    <li><a href="javascript:void(0)" ng-click="authenticateUser('/signup')">Sign Up</a></li>
+                    <li style="margin-bottom: 5px">
+                        <div>
+                            <span style="text-align: right; font-size: 20px; font-weight: 700">9921-177-082</span>
+                        </div>
+                        <button class="btn btn-warning post-ad-btn" ng-click="submitNewAdv()">POST FREE AD</button>
+                    </li>
+                </ul>
             </ul>
         </div>
       </header>  
@@ -72,9 +83,13 @@
     <script src="bower_components/angular-route/angular-route.min.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
     <script src="bower_components/angular-touch/angular-touch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/3.2.9/ui-grid.min.js"></script>
     <script src="bower_components/moment/min/moment.min.js"></script>
     <script src="bower_components/angular-ui-select/dist/select.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAl0L8_rOEyTV1GrUsGoc7ByBj-yiUxFLo"></script>
+    <script src="bower_components/vsGoogleAutocomplete/dist/vs-google-autocomplete.min.js"></script>
+    <script src="bower_components/vsGoogleAutocomplete/dist/vs-autocomplete-validator.min.js"></script>
 
     <!-- endbower -->
     <!-- endbuild -->
@@ -82,6 +97,7 @@
     <script src="public/angular/scripts/app.js"></script>
     <script src="public/angular/scripts/controllers/main.js"></script>
     <script src="public/angular/scripts/controllers/login.js"></script>
+    <script src="public/angular/scripts/controllers/signup.js"></script>
     <script src="public/angular/scripts/controllers/header.js"></script>
     <script src="public/angular/scripts/controllers/categories.js"></script>
     <script src="public/angular/scripts/controllers/categories-listing.js"></script>
@@ -90,6 +106,8 @@
     <script src="public/angular/scripts/controllers/submit-new-ad.js"></script>
     <script src="public/angular/scripts/directives/toputilitybar.js"></script>
     <script src="public/angular/scripts/services/dataservice.js"></script>
+    <script src="public/angular/scripts/services/ads.js"></script>
+    <script src="public/angular/scripts/services/categories.js"></script>
     <script src="public/angular/scripts/filters/customfilter.js"></script>
     <!-- endbuild -->
   </body>

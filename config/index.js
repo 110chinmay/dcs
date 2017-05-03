@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  mongoURI: process.env.MONGOLAB_URI,
+  mongoURI: process.env.DB_URI,
   roles: {
     USER: 'user',
     ADMIN: 'admin',

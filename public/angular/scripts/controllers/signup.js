@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name dcsUiApp.controller:LoginCtrl
+ * @name dcsUiApp.controller:SignupCtrl
  * @description
- * # LoginCtrl
+ * # SignupCtrl
  * Controller of the Login page
  */
 angular.module('dcsUiApp')
-.controller('LoginCtrl', function($scope, $location) {
-	
+.controller('SignupCtrl', function($scope, $location) {
+
 });

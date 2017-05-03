@@ -8,9 +8,9 @@
  * Service in the dcsUiApp.
  */
 angular.module('dcsUiApp')
-  .service('dataService', function($http) {
-    var dataService = {};
+.service('dataService', function($http) {
+	var dataService = {};
 
-    return dataService;
+	return dataService;
 
-  });
+});

@@ -18,7 +18,10 @@ header {
 }
 
 .header-container {
-    width: 900px; margin: 0 auto; background-color: white
+    display: flex;
+    width: 900px; 
+    margin: 0 auto; 
+    background-color: white
 }
 
 .header-container .post-ad-btn {
@@ -33,7 +36,18 @@ header {
   background-color: #ffffff;
 }
 
-ul {
+.header-primary-nav-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: auto;
+}
+
+.header-primary-nav-main {
+    display: flex;
+    width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -41,7 +55,8 @@ ul {
 }
 
 li {
-    float: right;
+    align-self: center;
+    margin-left: 10px;
 }
 
 li a, .dropbtn {
@@ -52,8 +67,9 @@ li a, .dropbtn {
     text-decoration: none !important;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+.header-primary-nav-links a:hover, .dropdown:hover .dropbtn {
     background-color: #dedede;
+    border-radius: 3px;
     color: black
 }
 

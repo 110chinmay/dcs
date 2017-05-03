@@ -7,11 +7,21 @@
     "start": "node server.js",
     "postinstall": "npm install bower -g && bower install"
   },
+  "engines": {
+    "node": "6.9.2"
+  },
   "dependencies": {
-    "express": "*",
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "*",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^2.0.0",
+    "express": "*",
+    "express-session": "^1.15.1",
     "mongoose": "*",
-    "dotenv": "^2.0.0"
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "passport": "~0.2.0",
+    "passport-local": "~1.0.0"
   },
   "devDependencies": {},
   "repository": {
@@ -25,4 +35,3 @@
   },
   "homepage": "https://github.com/rohitdhore/dcs#readme"
 }
-

@@ -16,7 +16,8 @@ angular.module('dcsUiApp', [
   'ui.select',
   'ui.grid',
   'ui.grid.exporter', 
-  'ui.grid.moveColumns'
+  'ui.grid.moveColumns',
+  'vsGoogleAutocomplete'
 ]).config(function($routeProvider, $locationProvider, $httpProvider) {
     
     $routeProvider
@@ -24,15 +25,15 @@ angular.module('dcsUiApp', [
       templateUrl: 'public/angular/views/main.html',
       controller: 'MainCtrl'
     })
-    .when('/categories', {
+    .when('/categories/:id', {
       templateUrl: 'public/angular/views/categories.html',
       controller: 'CategoriesCtrl'
     })
-    .when('/listing', {
+    .when('/listing/:id', {
       templateUrl: 'public/angular/views/categories-listing.html',
       controller: 'CategoriesListingCtrl'
     })
-    .when('/detail', {
+    .when('/detail/:id', {
       templateUrl: 'public/angular/views/detail-view.html',
       controller: 'DetailViewCtrl'
     })
@@ -40,11 +41,15 @@ angular.module('dcsUiApp', [
       templateUrl: 'public/angular/views/login.html',
       controller: 'LoginCtrl'
     })
+    .when('/signup', {
+      templateUrl: 'public/angular/views/sign-up.html',
+      controller: 'SignupCtrl'
+    })
     .when('/myaccount', {
       templateUrl: 'public/angular/views/my-account.html',
       controller: 'MyAccountCtrl'
     })
-    .when('/submitnewad', {
+    .when('/submitnewadv', {
       templateUrl: 'public/angular/views/submit-new-ad.html',
       controller: 'SubmitNewAdCtrl'
     })
