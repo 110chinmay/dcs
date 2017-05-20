@@ -10,6 +10,14 @@ body {
   font-family: 'Source Sans Pro',sans-serif,Calibri,helvetica,Cantarell,arial,tahoma,verdana;
 }
 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -411,4 +419,22 @@ input {
 
 .secondary-footer {
   width: 900px; margin: 10px auto; text-align: center;
+}
+
+
+.warning-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.input-custom {
+  width: 100%;
+  padding: 6px 20px;
+
+  border-bottom-color: none !important; 
+  border-bottom-left-radius: 0 !important; 
+  border-bottom-right-radius: 0 !important; 
+  border-top-left-radius: 0 !important; 
+  border-top-right-radius: 0 !important; 
 }

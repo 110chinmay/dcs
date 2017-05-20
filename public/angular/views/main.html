@@ -2,6 +2,7 @@
 <div id="cover" ng-show="displaySpinner">
   <div class="spinner"></div>
 </div>
+
 <div class="col-xs-12 pad-left-right-0 main-holder">
     <div class="content-holder">
         <top-utility-bar fullview="false"></top-utility-bar>
@@ -11,10 +12,7 @@
         <div class="col-xs-12 pad-left-right-0 category-wrapper">
             <div class="col-xs-7 pad-left-right-0 height-100">
                 <div class="col-xs-10 pad-left-right-0 category-holder">
-                    <div class="col-xs-4 pad-left-right-0 category cursor-pointer" ng-repeat="category in categories" ng-click="onCategoryClick(category)">
-                        <div class="category-image"></div>
-                        <span class="title" ng-bind="category.title"></span>
-                    </div>
+                    <custom-directive ng-repeat="category in categories" category="category"  ng-click="onCategoryClick(category)"></custom-directive>
                 </div>
             </div>
             <div class="col-xs-5  pad-left-right-0 height-100 category-right">

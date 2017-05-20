@@ -8,6 +8,9 @@
  * Controller of the Login page
  */
 angular.module('dcsUiApp')
-.controller('LoginCtrl', function($scope) {
-	
+.controller('TopUtilityCtrl', function($scope) {
+	$scope.options_cities = {
+		types: ['(cities)'],
+		componentRestrictions: { country: 'IN' }
+	}
 });

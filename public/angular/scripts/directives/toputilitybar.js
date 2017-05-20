@@ -8,12 +8,6 @@
  */
 angular.module('dcsUiApp')
 	.directive('topUtilityBar', function () {
-		var controller = function ($scope) {
-			$scope.options_cities = {
-				types: ['(cities)'],
-				componentRestrictions: { country: 'IN' }
-			}
-		};
 		return {
 			templateUrl: '/public/angular/views/templates/topUtilityBar.html',
 			restrict: 'E',
@@ -21,7 +15,7 @@ angular.module('dcsUiApp')
 			scope: {
 				fullview: '='
 			},
-			controller: controller,
+			controller: 'TopUtilityCtrl',
 			link: function postLink(scope, element, attrs) {
 				
 			}
