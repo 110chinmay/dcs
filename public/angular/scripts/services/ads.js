@@ -24,7 +24,6 @@ angular.module('dcsUiApp')
 			});
 		},
 		addNew: function(req) {
-			console.log(req);
 			return $http({
 				url: api_url,
 				method: 'POST',
